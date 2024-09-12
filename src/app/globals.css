@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn:hover .upper{
+top: 0%;
+}
+.upper{
+    top: 100%;
+    transition: all 0.3s ease;
+}
+
+*::selection{
+    background-color: #333333;
+    color: white;
+}
