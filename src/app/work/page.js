@@ -7,7 +7,7 @@ import Footer from '@/Components/Nav/Sections/Footer'
 
 const page = () => {
   return (
-    <div >
+    <div className='w-full overflow-hidden' >
       <Nav/>
       <P1/>
       <P2/>

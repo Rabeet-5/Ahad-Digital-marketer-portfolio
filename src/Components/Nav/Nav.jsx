@@ -42,7 +42,7 @@ const Nav = () => {
       {/* Desktop Menu */}
       <div className="lg:flex hidden gap-7 font-[600]">
         <Link className={pathname === '/' ? 'underline decoration-4  opacity-100 underline-offset-8' : ''} href="/">Home</Link>
-        <Link className={pathname === '/services' ? 'underline decoration-4  opacity-100 underline-offset-8' : ''} href="/services">My Services</Link>
+        <Link className={pathname === '/Services' ? 'underline decoration-4  opacity-100 underline-offset-8' : ''} href="/Services">My Services</Link>
         <Link className={pathname === '/work' ? 'underline decoration-4  opacity-100 underline-offset-8' : ''}  href="/work">My Work</Link>
         <Link className={pathname === '/contact' ? 'underline decoration-4  opacity-100 underline-offset-8' : ''}  href="/contact">Contact</Link>
       </div>
@@ -75,7 +75,7 @@ const Nav = () => {
             Home
           </Link>
           <Link
-            href="/services"
+            href="/Services"
             className="mb-4 md:text-3xl text-2xl"
             onClick={toggleMenu}
           >
